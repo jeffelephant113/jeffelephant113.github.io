@@ -22,26 +22,26 @@
 
   <meta property="og:type" content="website">
 <meta property="og:title" content="My Blog">
-<meta property="og:url" content="https://jeffelephant113.github.io/index.html">
+<meta property="og:url" content="https://jeffelephant113.github.io/tags/%E6%B8%AC%E8%A9%A6/index.html">
 <meta property="og:site_name" content="My Blog">
 <meta property="og:locale" content="zh_TW">
 <meta property="article:author" content="Jeff Lin">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://jeffelephant113.github.io/">
+<link rel="canonical" href="https://jeffelephant113.github.io/tags/%E6%B8%AC%E8%A9%A6/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
+    isHome : false,
     isPost : false,
     lang   : 'zh-TW'
   };
 </script>
 
-  <title>My Blog</title>
+  <title>標籤: 測試 | My Blog</title>
   
 
 
@@ -139,103 +139,50 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content tag">
             
-      
+
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="https://jeffelephant113.github.io/2021/05/12/first-page/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://avatars.githubusercontent.com/u/70565295">
-      <meta itemprop="name" content="Jeff Lin">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="My Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/05/12/first-page/" class="post-title-link" itemprop="url">練習Part1-Hexo</a>
+  
+  <div class="post-block">
+    <div class="posts-collapse">
+      <div class="collection-title">
+        <h2 class="collection-header">測試
+          <small>標籤</small>
         </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">發表於</span>
-
-              <time title="創建時間：2021-05-12 15:13:26" itemprop="dateCreated datePublished" datetime="2021-05-12T15:13:26+08:00">2021-05-12</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2021-05-11 00:44:39" itemprop="dateModified" datetime="2021-05-11T00:44:39+08:00">2021-05-11</time>
-              </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
+      </div>
 
       
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! 這是我第一個文章。</p>
-<h2 id="程式筆記"><a href="#程式筆記" class="headerlink" title="程式筆記"></a>程式筆記</h2><p>#筆記<br>參考:<br><a target="_blank" rel="noopener" href="https://medium.com/@bebebobohaha/%E4%BD%BF%E7%94%A8-hexo-gitpage-%E6%90%AD%E5%BB%BA%E5%80%8B%E4%BA%BA-blog-5c6ed52f23db">使用Hexo搭建個人Blog使用Hexo搭建個人Blog</a><br><a target="_blank" rel="noopener" href="https://ed521.github.io/2019/07/hexo-install/">使用 GitHub Pages + Hexo 來架設個人部落格</a></p>
-<p>選取路徑<br>EX:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd &#x2F;D&#x2F;repo&#x2F;bean</span><br></pre></td></tr></table></figure>
-
-<p>當前位置下面檔案  (Google:ll ls linux)</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ll</span><br><span class="line">ls</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="First-Day-建立Hexo環境與設定"><a href="#First-Day-建立Hexo環境與設定" class="headerlink" title="First Day~  建立Hexo環境與設定"></a>First Day~  建立Hexo環境與設定</h2><h3 id="除錯"><a href="#除錯" class="headerlink" title="除錯"></a>除錯</h3><p>1.</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br><span class="line">hexo d</span><br><span class="line">INFO  Validating config</span><br><span class="line">ERROR Deployer not found: git</span><br></pre></td></tr></table></figure>
-
-<p>解</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-<p>補充資料</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo cl  //清除之前建立的靜態檔案，也可以輸入 hexo clean</span><br></pre></td></tr></table></figure>
-
-<p>2.</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">Unable to auto-detect email address (got <span class="string">&#x27;Arreane@Arreane-PC.(none)&#x27;</span>)</span><br><span class="line"></span><br><span class="line">*** Please tell me who you are.</span><br><span class="line"></span><br><span class="line">Run</span><br><span class="line">  git config --global user.email <span class="string">&quot;you@example.com&quot;</span></span><br><span class="line">  git config --global user.name <span class="string">&quot;Your Name&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">to <span class="built_in">set</span> your account<span class="string">&#x27;s default identity.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">Omit --global to set the identity only in this repository</span></span><br></pre></td></tr></table></figure>
-
-<p>解</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.email <span class="string">&quot;jeffelephant113.com&quot;</span></span><br><span class="line">git config --global user.name <span class="string">&quot;jeffelephant113&quot;</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="Day2-更換主題-使用NexT"><a href="#Day2-更換主題-使用NexT" class="headerlink" title="Day2~  更換主題(使用NexT)"></a>Day2~  更換主題(使用NexT)</h2><p>1.安裝NexT</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/theme-next/hexo-theme-next.git themes/next</span><br></pre></td></tr></table></figure>
-
-<p>接著修改網站設定_config.yml</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: next</span><br></pre></td></tr></table></figure>
-
-<p>2.Scheme 設定<br>使用教學網頁多人使用的Pisces當主題。<br>路徑theme/next/_config.yml裡找到schema，取消註解。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#scheme: Muse</span></span><br><span class="line"><span class="comment">#scheme: Mist</span></span><br><span class="line">scheme: Pisces</span><br><span class="line"><span class="comment">#scheme: Gemini</span></span><br></pre></td></tr></table></figure>
-      
+    <div class="collection-year">
+      <span class="collection-header">2021</span>
     </div>
 
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
 
+      <div class="post-meta">
+        <time itemprop="dateCreated"
+              datetime="2021-05-12T15:13:26+08:00"
+              content="2021-05-12">
+          05-12
+        </time>
+      </div>
+
+      <div class="post-title">
+          <a class="post-title-link" href="/2021/05/12/first-page/" itemprop="url">
+            <span itemprop="name">練習Part1-Hexo</span>
+          </a>
+      </div>
+
+    </header>
+  </article>
+
+    </div>
+  </div>
+  
+  
+  
 
   
 
